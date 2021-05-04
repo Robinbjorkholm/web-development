@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html>
+<head>  </head> 
+<body> hello
+    <div class="container">
+        <h1>notes</h1>
+        <div id="notes"></div>
+        <form action="/new_note" method="post">
+            <input type="text" name="note">
+            <br>
+            <input type="submit" value="save">
+            </form>
+    </div>
+    
+</body>
+</html>
